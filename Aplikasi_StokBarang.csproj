@@ -1,0 +1,428 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{72C60325-FC6E-44B4-A373-43B3A026058E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Project_PemantauanBarangDisbertam</RootNamespace>
+    <AssemblyName>Project_PemantauanBarangDisbertam</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GUI\FCetakTanggalKembali.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\FCetakTanggalKembali.Designer.cs">
+      <DependentUpon>FCetakTanggalKembali.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\FBarang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\FBarang.Designer.cs">
+      <DependentUpon>FBarang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\FCariBarang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\FCariBarang.Designer.cs">
+      <DependentUpon>FCariBarang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\FCariPegawai.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\FCariPegawai.Designer.cs">
+      <DependentUpon>FCariPegawai.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\FCariPemakaian.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\FCariPemakaian.Designer.cs">
+      <DependentUpon>FCariPemakaian.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\FCetakPemakaian.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\FCetakPemakaian.Designer.cs">
+      <DependentUpon>FCetakPemakaian.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\FCetakPengembalian.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\FCetakPengembalian.Designer.cs">
+      <DependentUpon>FCetakPengembalian.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\FCetakPeriodeKembali.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\FCetakPeriodeKembali.Designer.cs">
+      <DependentUpon>FCetakPeriodeKembali.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\FCetakPeriodePakai.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\FCetakPeriodePakai.Designer.cs">
+      <DependentUpon>FCetakPeriodePakai.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\FCetakStokBarang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\FCetakStokBarang.Designer.cs">
+      <DependentUpon>FCetakStokBarang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\FCetakTanggalPakai.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\FCetakTanggalPakai.Designer.cs">
+      <DependentUpon>FCetakTanggalPakai.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\FLaporan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\FLaporan.Designer.cs">
+      <DependentUpon>FLaporan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\FLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\FLogin.Designer.cs">
+      <DependentUpon>FLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\FMenuUtama.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\FMenuUtama.Designer.cs">
+      <DependentUpon>FMenuUtama.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\FPegawai.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\FPegawai.Designer.cs">
+      <DependentUpon>FPegawai.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\FPemakaian.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\FPemakaian.Designer.cs">
+      <DependentUpon>FPemakaian.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\FPengembalian.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\FPengembalian.Designer.cs">
+      <DependentUpon>FPengembalian.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kelas\Koneksi.cs" />
+    <Compile Include="Laporan\LaporanBarang.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LaporanBarang.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Laporan\LaporanKembali.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LaporanKembali.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Laporan\LaporanPakai.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LaporanPakai.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Laporan\LaporanPeriodeKembali.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LaporanPeriodeKembali.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Laporan\LaporanPeriodePakai.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LaporanPeriodePakai.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Laporan\LaporanTanggalKembali.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LaporanTanggalKembali.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Laporan\LaporanTanggalPakai.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LaporanTanggalPakai.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="GUI\FCetakTanggalKembali.resx">
+      <DependentUpon>FCetakTanggalKembali.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\FBarang.resx">
+      <DependentUpon>FBarang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\FCariBarang.resx">
+      <DependentUpon>FCariBarang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\FCariPegawai.resx">
+      <DependentUpon>FCariPegawai.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\FCariPemakaian.resx">
+      <DependentUpon>FCariPemakaian.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\FCetakPemakaian.resx">
+      <DependentUpon>FCetakPemakaian.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\FCetakPengembalian.resx">
+      <DependentUpon>FCetakPengembalian.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\FCetakPeriodeKembali.resx">
+      <DependentUpon>FCetakPeriodeKembali.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\FCetakPeriodePakai.resx">
+      <DependentUpon>FCetakPeriodePakai.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\FCetakStokBarang.resx">
+      <DependentUpon>FCetakStokBarang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\FCetakTanggalPakai.resx">
+      <DependentUpon>FCetakTanggalPakai.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\FLaporan.resx">
+      <DependentUpon>FLaporan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\FLogin.resx">
+      <DependentUpon>FLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\FMenuUtama.resx">
+      <DependentUpon>FMenuUtama.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\FPegawai.resx">
+      <DependentUpon>FPegawai.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\FPemakaian.resx">
+      <DependentUpon>FPemakaian.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\FPengembalian.resx">
+      <DependentUpon>FPengembalian.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\LaporanBarang.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>LaporanBarang.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\LaporanKembali.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>LaporanKembali.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\LaporanPakai.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>LaporanPakai.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\LaporanPeriodeKembali.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>LaporanPeriodeKembali.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\LaporanPeriodePakai.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>LaporanPeriodePakai.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\LaporanTanggalKembali.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>LaporanTanggalKembali.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\LaporanTanggalPakai.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>LaporanTanggalPakai.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\add16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\admin16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\admin32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\admin64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boy16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boy64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enter16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enter32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enter64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\info16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\info32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\info64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\item16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\item64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\report16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\report32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\transaction16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\transaction64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

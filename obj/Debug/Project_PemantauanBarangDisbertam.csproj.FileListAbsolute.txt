@@ -1,0 +1,28 @@
+c:\users\arka\documents\visual studio 2012\Projects\Project_PemantauanBarangDisbertam\bin\Debug\Project_PemantauanBarangDisbertam.exe.config
+c:\users\arka\documents\visual studio 2012\Projects\Project_PemantauanBarangDisbertam\obj\Debug\Project_PemantauanBarangDisbertam.csprojResolveAssemblyReference.cache
+c:\users\arka\documents\visual studio 2012\Projects\Project_PemantauanBarangDisbertam\obj\Debug\Project_PemantauanBarangDisbertam.GUI.FMenuUtama.resources
+c:\users\arka\documents\visual studio 2012\Projects\Project_PemantauanBarangDisbertam\obj\Debug\Project_PemantauanBarangDisbertam.Properties.Resources.resources
+c:\users\arka\documents\visual studio 2012\Projects\Project_PemantauanBarangDisbertam\obj\Debug\Project_PemantauanBarangDisbertam.csproj.GenerateResource.Cache
+c:\users\arka\documents\visual studio 2012\Projects\Project_PemantauanBarangDisbertam\bin\Debug\Project_PemantauanBarangDisbertam.exe
+c:\users\arka\documents\visual studio 2012\Projects\Project_PemantauanBarangDisbertam\bin\Debug\Project_PemantauanBarangDisbertam.pdb
+c:\users\arka\documents\visual studio 2012\Projects\Project_PemantauanBarangDisbertam\obj\Debug\Project_PemantauanBarangDisbertam.exe
+c:\users\arka\documents\visual studio 2012\Projects\Project_PemantauanBarangDisbertam\obj\Debug\Project_PemantauanBarangDisbertam.pdb
+C:\Users\Arka\Documents\Visual Studio 2012\Projects\Project_PemantauanBarangDisbertam\obj\Debug\Project_PemantauanBarangDisbertam.GUI.FBarang.resources
+C:\Users\Arka\Documents\Visual Studio 2012\Projects\Project_PemantauanBarangDisbertam\obj\Debug\Project_PemantauanBarangDisbertam.GUI.FCariBarang.resources
+C:\Users\Arka\Documents\Visual Studio 2012\Projects\Project_PemantauanBarangDisbertam\obj\Debug\Project_PemantauanBarangDisbertam.GUI.FCariPegawai.resources
+C:\Users\Arka\Documents\Visual Studio 2012\Projects\Project_PemantauanBarangDisbertam\obj\Debug\Project_PemantauanBarangDisbertam.GUI.FCariPemakaian.resources
+C:\Users\Arka\Documents\Visual Studio 2012\Projects\Project_PemantauanBarangDisbertam\obj\Debug\Project_PemantauanBarangDisbertam.GUI.FLogin.resources
+C:\Users\Arka\Documents\Visual Studio 2012\Projects\Project_PemantauanBarangDisbertam\obj\Debug\Project_PemantauanBarangDisbertam.GUI.FPegawai.resources
+C:\Users\Arka\Documents\Visual Studio 2012\Projects\Project_PemantauanBarangDisbertam\obj\Debug\Project_PemantauanBarangDisbertam.GUI.FPemakaian.resources
+C:\Users\Arka\Documents\Visual Studio 2012\Projects\Project_PemantauanBarangDisbertam\obj\Debug\Project_PemantauanBarangDisbertam.GUI.FPengembalian.resources
+C:\Users\Arka\Documents\Visual Studio 2012\Projects\Project_PemantauanBarangDisbertam\obj\Debug\Project_PemantauanBarangDisbertam.GUI.FCetakPemakaian.resources
+C:\Users\Arka\Documents\Visual Studio 2012\Projects\Project_PemantauanBarangDisbertam\obj\Debug\Project_PemantauanBarangDisbertam.GUI.FCetakPengembalian.resources
+C:\Users\Arka\documents\visual studio 2012\Projects\Project_PemantauanBarangDisbertam\obj\Debug\Project_PemantauanBarangDisbertam.GUI.FCetakPeriodePakai.resources
+C:\Users\Arka\documents\visual studio 2012\Projects\Project_PemantauanBarangDisbertam\obj\Debug\Project_PemantauanBarangDisbertam.GUI.FLaporan.resources
+C:\Users\Arka\documents\visual studio 2012\Projects\Project_PemantauanBarangDisbertam\obj\Debug\Project_PemantauanBarangDisbertam.GUI.FCetakTanggalPakai.resources
+C:\Users\Arka\documents\visual studio 2012\Projects\Project_PemantauanBarangDisbertam\obj\Debug\Project_PemantauanBarangDisbertam.GUI.FCetakStokBarang.resources
+C:\Users\Arka\documents\visual studio 2012\Projects\Project_PemantauanBarangDisbertam\obj\Debug\Project_PemantauanBarangDisbertam.GUI.FCetakPeriodeKembali.resources
+C:\Users\Arka\documents\visual studio 2012\Projects\Project_PemantauanBarangDisbertam\obj\Debug\Project_PemantauanBarangDisbertam.GUI.FCetakTanggalKembali.resources
+E:\TA24\TI15D_Tyas Armanda\Project_PemantauanBarangDisbertam\bin\Debug\Project_PemantauanBarangDisbertam.exe.config
+E:\TA24\TI15D_Tyas Armanda\Project_PemantauanBarangDisbertam\obj\Debug\Project_PemantauanBarangDisbertam.exe
+E:\TA24\TI15D_Tyas Armanda\Project_PemantauanBarangDisbertam\obj\Debug\Project_PemantauanBarangDisbertam.pdb
